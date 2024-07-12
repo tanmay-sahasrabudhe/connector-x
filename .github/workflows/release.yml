@@ -1,10 +1,9 @@
 name: release
 
 on:
-  push:
+  workflow_dispatch:
     branches:
-      - prerelease
-      - release
+      - arm_build_actions_issue
 
 jobs:
   # linux:
