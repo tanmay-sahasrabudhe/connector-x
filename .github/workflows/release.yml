@@ -5,6 +5,9 @@ on:
     branches:
       - arm_build_actions_issue
 
+env:
+  ACTIONS_STEP_DEBUG: true
+
 jobs:
   # linux:
   #   runs-on: ubuntu-latest
